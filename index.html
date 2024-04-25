@@ -125,8 +125,8 @@
 <section>
    <div id="BGP Classes" class="w3-container w3-padding-top-64">
        <h3 class="w3-center">BGP Classes</h3>
-       <div class="w3-padding-large" style="text-align: center;">
-           <div class="w3-content" style="max-width: 1200px">
+       <div class="w3-padding-large" style="text-align: center; style=" width: 100%;">
+           <div class="w3-content" style="max-width: 75%">
                <img class="mySlides" src="./img/Class_GardenWorkshop.jpg" style="width: 100%" />
                <img class="mySlides" src="./img/Class_PurpleAnemone.jpg" style="width: 100%; display: none" />
                <img class="mySlides" src="./img/Class_RaymondBooth.jpg" style="width: 100%; display: none" />
@@ -245,7 +245,7 @@
                <div class="w3-col s4">
                    <img
                        src="./img/shop-1.jpg"
-                       style="width: 60%; cursor: zoom-in"
+                       style="width: 70%; cursor: zoom-in"
                        onclick="document.getElementById('modal01').style.display='block'"
                        class="w3-hover-shadow"
                    />
@@ -253,7 +253,7 @@
                <div class="w3-col s4">
                    <img
                        src="./img/shop-2.jpg"
-                       style="width: 60%; cursor: zoom-in"
+                       style="width: 70%; cursor: zoom-in"
                        onclick="document.getElementById('modal02').style.display='block'"
                        class="w3-hover-shadow"
                    />
@@ -261,7 +261,7 @@
                <div class="w3-col s4">
                    <img
                        src="./img/shop-3.jpg"
-                       style="width: 60%; cursor: zoom-in"
+                       style="width: 70%; cursor: zoom-in"
                        onclick="document.getElementById('modal03').style.display='block'"
                        class="w3-hover-shadow"
                    />
@@ -272,7 +272,7 @@
                <div class="w3-col s4">
                    <img
                        src="./img/shop-4.jpg"
-                       style="width: 60%; cursor: zoom-in"
+                       style="width: 70%; cursor: zoom-in"
                        onclick="document.getElementById('modal04').style.display='block'"
                        class="w3-hover-shadow"
                />
@@ -280,7 +280,7 @@
                <div class="w3-col s4">
                    <img
                        src="./img/shop 5b.jpg"
-                       style="width: 60%; cursor: zoom-in"
+                       style="width: 70%; cursor: zoom-in"
                        onclick="document.getElementById('modal05').style.display='block'"
                        class="w3-hover-shadow"
                    />
@@ -288,7 +288,7 @@
                <div class="w3-col s4">
                    <img
                        src="./img/shop-6.jpg"
-                       style="width: 60%; cursor: zoom-in"
+                       style="width: 70%; cursor: zoom-in"
                        onclick="document.getElementById('modal06').style.display='block'"
                        class="w3-hover-shadow"
                    />
@@ -411,7 +411,11 @@
    </h4>
 </section>
 
-      
+<!-- Three columns for text and accordions -->
+<div class="w3-row">
+
+<!-- First column -->
+<div class="w3-col s12 m4" style="padding-right: 20px; vertical-align: top;">
 
 <!-- First accordion item -->
 <div class="w3-row">
@@ -419,12 +423,12 @@
        <button class="w3-button w3-block w3-light-grey" onclick="myAccordion('accordion1')">
            <h4>Video Blog 327 <i class="fa fa-caret-down"></i></h4>
        </button>
-       <div id="accordion1" class="w3-hide w3-container" style="text-align: left;">
+       <div id="accordion1" class="w3-hide w3-container" style="text-align: center;">
            <div class="w3-row">
                <!-- Embedded video -->
-               <div class="w3-col s12 m6">
+               <div class="w3-col s12">
                    <iframe
-                       style="width: 60%; height: 200px;"
+                    style="width: 100%; height: auto; margin: 0 auto;"
                        src="https://www.youtube.com/embed/ahKh5uNs3qo"
                        title="How to Start with Botanical Art"
                        frameborder="0"
@@ -432,19 +436,24 @@
                        allowfullscreen
                    ></iframe>
                </div>
-               <!-- Accordion content -->
-               <div class="w3-col s12 m6">
-                   <p>
-                       <strong>Blog 327:</strong> "How to Start with Botanical Art"
-                       Embark on your botanical art journey with our tutorial, "How to Start with Botanical Art." Perfect for beginners, this step-by-step guide demystifies the process of creating stunning botanical illustrations. Learn essential techniques, from sketching to shading, as you capture the intricate beauty of plants and flowers. Our experienced instructors provide expert tips and personalized guidance, ensuring your artwork blossoms with lifelike detail and vibrancy. Whether you're a seasoned artist looking to explore a new medium or a novice eager to cultivate your artistic skills, this tutorial offers a welcoming entry point into the captivating world of botanical art.
-                   </p>
-               </div>
            </div>
        </div>
    </div>
 </div>
 
-<br>
+<!-- Text Below Accordion -->
+<div class="w3-row">
+    <div class="w3-col s12">
+        <p>
+            <strong>Blog 327:</strong> "How to Start with Botanical Art"
+            Embark on your botanical art journey with our tutorial, "How to Start with Botanical Art." Perfect for beginners, this step-by-step guide demystifies the process of creating stunning botanical illustrations. Learn essential techniques, from sketching to shading, as you capture the intricate beauty of plants and flowers. Our experienced instructors provide expert tips and personalized guidance, ensuring your artwork blossoms with lifelike detail and vibrancy. Whether you're a seasoned artist looking to explore a new medium or a novice eager to cultivate your artistic skills, this tutorial offers a welcoming entry point into the captivating world of botanical art.
+        </p>
+    </div>
+</div>     
+</div>
+
+<!-- Second column -->
+<div class="w3-col s12 m4" style="padding-right: 20px; vertical-align: top;">
 
 <!-- Second accordion item -->
 <div class="w3-row">
@@ -452,12 +461,12 @@
        <button class="w3-button w3-block w3-light-grey" onclick="myAccordion('accordion2')">
            <h4>Video Blog 326 <i class="fa fa-caret-down"></i></h4>
        </button>
-       <div id="accordion2" class="w3-hide w3-container" style="text-align: left;">
+       <div id="accordion2" class="w3-hide w3-container" style="text-align: center;">
            <div class="w3-row">
                <!-- Embedded video -->
-               <div class="w3-col s12 m6">
+               <div class="w3-col s12">
                    <iframe
-                       style="width: 60%; height: 200px;"
+                   style="width: 100%; height: auto; margin: 0 auto;"
                        src="https://www.youtube.com/embed/JclF2UD6dyw"
                        title="How to Paint Realistic Green Leaves"
                        frameborder="0"
@@ -465,18 +474,22 @@
                        allowfullscreen
                    ></iframe>
                </div>
-               <!-- Accordion content -->
-               <div class="w3-col s12 m6">
-                   <p>
-                       <strong>Blog 326:</strong> "How to Paint Realistic Green Leaves" Dive into the enchanting world of watercolor painting with our tutorial, "How to Paint Realistic Green Leaves." Designed for artists of all levels, this comprehensive guide unlocks the secrets to capturing the lush beauty of foliage with stunning realism. Learn essential watercolor techniques, from blending and layering to creating texture and depth, as you bring verdant leaves to life on paper. This instructor provides step-by-step demonstrations and personalized tips, empowering you to infuse your artwork with vibrant color and lifelike detail. Whether you're a beginner seeking to refine your skills or a seasoned painter looking for fresh inspiration, this tutorial offers a captivating journey into the art of botanical watercolor.
-                   </p>
-               </div>
            </div>
        </div>
    </div>
 </div>
+<!-- Text Below Accordion -->
+<div class="w3-row">
+    <div class="w3-col s12">
+        <p>
+            <strong>Blog 326:</strong> "How to Paint Realistic Green Leaves" Dive into the enchanting world of watercolor painting with our tutorial, "How to Paint Realistic Green Leaves." Designed for artists of all levels, this comprehensive guide unlocks the secrets to capturing the lush beauty of foliage with stunning realism. Learn essential watercolor techniques, from blending and layering to creating texture and depth, as you bring verdant leaves to life on paper. This instructor provides step-by-step demonstrations and personalized tips, empowering you to infuse your artwork with vibrant color and lifelike detail. Whether you're a beginner seeking to refine your skills or a seasoned painter looking for fresh inspiration, this tutorial offers a captivating journey into the art of botanical watercolor.
+        </p>
+    </div>
+</div>  
+</div>
 
-<br>
+ <!-- Third column -->
+ <div class="w3-col s12 m4" style="padding-right: 20px; vertical-align: top;">
 
 <!-- Third accordion item -->
 <div class="w3-row">
@@ -484,12 +497,12 @@
        <button class="w3-button w3-block w3-light-grey" onclick="myAccordion('accordion3')">
            <h4>Video Blog 325 <i class="fa fa-caret-down"></i></h4>
        </button>
-       <div id="accordion3" class="w3-hide w3-container" style="text-align: left;">
+       <div id="accordion3" class="w3-hide w3-container" style="text-align: center;">
            <div class="w3-row">
                <!-- Embedded video -->
-               <div class="w3-col s12 m6">
+               <div class="w3-col s12">
                    <iframe
-                       style="width: 60%; height: 200px;"
+                   style="width: 100%; height: auto; margin: 0 auto;"
                        src="https://www.youtube.com/embed/1AApqdSeLvs"
                        title="Caroline Zimmermann: Portrait of an Artist in her Tuscan Garden"
                        frameborder="0"
@@ -497,28 +510,32 @@
                        allowfullscreen
                    ></iframe>
                </div>
-               <!-- Accordion content -->
-               <div class="w3-col s12 m6">
-                   <p>
-                       <strong>Blog 325:</strong> "Portrait of an Artist in her Tuscan Garden"
-                       Step into the enchanting world of "Caroline Zimmermann: Portrait of an Artist in her Tuscan Garden," a mesmerizing short film produced for the BBC. Discover the captivating story of Caroline Zimmermann, an extraordinary artist who found solace and inspiration amidst the bucolic landscape of her Tuscan garden and studio while battling cancer.
-                   </p> 
-                   <p>
-                       Witness an artist gardener's journey of resilience and renewal as she navigates the challenges of recovery. Experience the connection between nature and creativity as Zimmermann creates evocative works of art, capturing the vibrant hues and serene ambiance of the Tuscan countryside.
-                   </p> 
-                   <p>
-                       This is a journey of healing and transformation, where art and the garden become a beacon of hope, bringing solace and inspiration. This is a celebration of life's beauty, resilience, and the enduring power of creativity.
-                   </p>
-               </div>
            </div>
         </div>
    </div>
+</div>
+<!-- Text Below Accordion -->
+<div class="w3-row">
+    <div class="w3-col s12">
+        <p>
+            <strong>Blog 325:</strong> "Portrait of an Artist in her Tuscan Garden"
+            Step into the enchanting world of "Caroline Zimmermann: Portrait of an Artist in her Tuscan Garden," a mesmerizing short film produced for the BBC. Discover the captivating story of Caroline Zimmermann, an extraordinary artist who found solace and inspiration amidst the bucolic landscape of her Tuscan garden and studio while battling cancer.
+        </p> 
+        <p>
+            Witness an artist gardener's journey of resilience and renewal as she navigates the challenges of recovery. Experience the connection between nature and creativity as Zimmermann creates evocative works of art, capturing the vibrant hues and serene ambiance of the Tuscan countryside.
+        </p> 
+        <p>
+            This is a journey of healing and transformation, where art and the garden become a beacon of hope, bringing solace and inspiration. This is a celebration of life's beauty, resilience, and the enduring power of creativity.
+        </p>
+    </div>
+</div>  
 </div>
 
 <img src="img/blank-sand.jpg" alt="space" style="height: 230px;">
 
 </section>
 
+<br>
 
 <!-- CONTACT Section-->
 <!-- CONTACT Section-->
@@ -571,7 +588,7 @@
            </tbody>
        </table>
    </div>
-
+<br>
        <!-- Right column with image -->
        <div class="right-column" style="flex: 1;">
            
